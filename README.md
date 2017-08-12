@@ -33,7 +33,7 @@ Here are some features of the theme:
 ## Screenshot
 
 1. Homepage.
-![Post Editor Meta Box]()
+![Post Editor Meta Box](https://github.com/chetan8300/rtTheme-bootstrap/blob/master/screenshot/theme-screenshot.png)
 
 ## Changelog
 
