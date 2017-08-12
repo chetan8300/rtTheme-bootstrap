@@ -1,0 +1,115 @@
+/*
+Theme Name: rtTheme
+Author: Chetan Godhani
+Author URI: http://chetangodhani.com
+Description: A theme developed for rtPanel website. This theme is only for project purpose.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: rtpanel-new
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+@media all and (max-width:768px) {
+    #slider-container {
+        display: none;
+    }
+}
+
+article.post {
+    border-bottom: #ccc solid 1px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+article.post:last-child {
+    border-bottom: none;  
+}
+
+article.post img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+article.post .meta {
+    background: #f4f4f4;
+    padding: 8px 12px;
+    color: #333;
+}
+
+.comment-list {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.comment-item {
+    overflow: auto;
+}
+
+.footer-bg {
+    background-color: #D3D3D3;
+}
+
+.footer-widget {
+    background-color: #F5F5F5;
+}
+
+.navbar-inner {
+    background-color:transparent;
+}
+
+.footer-text-padding {
+    padding-top: 18px;
+}
+
+.children {
+    padding-top: 15px;
+}
+
+.well {
+    margin-bottom: 0;
+}
+
+.sr-only {
+    background-color: #000;
+}
+
+.text-style-tweets {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+
+@media all and (min-width:468px) {
+    ul#menu-top-menu > li > a {
+    padding-bottom: 32px;
+    padding-top: 38px;
+    }
+
+    img.navbar-brand {
+        float: left;
+        font-size: 18px;
+        height: 90px;
+        line-height: 20px;
+        padding: 15px;
+    }
+
+    li.navbar-brand {
+        float: left;
+        font-size: 18px;
+        height: 100px;
+        line-height: 20px;
+        padding: 15px;
+    }
+
+    .navbar-form-top-margin {
+        margin-top: 30px; 
+    }
+}
