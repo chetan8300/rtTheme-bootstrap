@@ -25,7 +25,7 @@ Here are some features of the theme:
 **Important Links Used as Library**
 * [Bootstrap](http://getbootstrap.com/)-Responsive Design CSS FrameWork
 * [jQuery](https://jquery.com//)- JQuery
-* [Font Awesome] (http://fontawesome.io/) - For Iconic Font
+* [Font-Awesome] (http://fontawesome.io/) - For Iconic Font
 
 ## Installation
 
