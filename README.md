@@ -21,6 +21,7 @@ Here are some features of the theme:
 * Bootstrap Page Navigation
 * 2 Menus (Header and Footer)
 * Slider with Post and Post Excerpt
+* Google Custom Search Engine added for particular this domain (This can be changed for your site by editing header.php file line:46 to line:73)
 
 **Important Links Used as Library**
 * [Bootstrap](http://getbootstrap.com/)-Responsive Design CSS FrameWork
