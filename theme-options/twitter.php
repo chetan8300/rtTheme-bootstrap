@@ -2,11 +2,6 @@
 
 require_once get_template_directory() . '/lib/twitteroauth/twitteroauth.php';
 
-//$twitter_customer_key = '9TIIEn5kQsqDDCcxcem1YAvLN';
-//$twitter_customer_secret = 'RlP3XRkatb5HgOtdM5X1hDt6FnOwUk8tRfE5FnzLcMAlUEs1jQ';
-//$twitter_access_token = '551762645-dyVgNJspXXUgnRkN9PmV6AaH9l8l4xLQZwsYr0Xz';
-//$twitter_access_token_secret = 'JMr16fU0xuHU0JGvosirPun4mW1x8OnwpZQtmhTjobg93';
-
 
 $twitter_customer_key = get_option('twitter_customer_key');
 $twitter_customer_secret = get_option('twitter_customer_secret');
