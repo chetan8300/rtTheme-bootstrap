@@ -1,5 +1,3 @@
-    
-        <hr>
         <footer>
                 <div class="footer-widget">
                     <div class="container">
@@ -50,9 +48,7 @@
                     </div>
                 </div>
         </footer>
-
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/lib/assets/js/bootstrap.js"></script>
-
+    <script src="<?php bloginfo('template_directory'); ?>/lib/assets/js/bootstrap.js"></script>
 </body>
 </html>

@@ -1,0 +1,1 @@
+$( "<input type='text' name='url' id='url' size=30>" ).insertBefore( "#add" );

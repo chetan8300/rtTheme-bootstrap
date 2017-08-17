@@ -5,10 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
         <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="<?php
-        echo esc_url(get_template_directory_uri());
-        ;
-        ?>/lib/assets/css/bootstrap.css">
+        <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/lib/assets/css/bootstrap.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
     </head>
@@ -22,8 +19,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <?php if (has_custom_logo()) : ?>
-                        <li class="navbar-brand list-unstyled"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php the_custom_logo(); ?></a></li>
+                    <?php if ( get_option('rttheme_logo') != '' ) : ?>
+                        <li class="navbar-brand list-unstyled"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><img src="<?php echo get_option('rttheme_logo'); ?>" /></a></li>
                     <?php else : ?>
                         <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><img class="navbar-brand" src='<?php echo get_template_directory_uri() . '/lib/assets/images/sitelogo.png'; ?>'></a>
                     <?php endif; ?>
