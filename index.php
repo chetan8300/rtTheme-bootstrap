@@ -90,7 +90,7 @@
                         <div class="panel-body">
                             <div class="row">
                                 <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-xs-4 col-sm-3">
                                         <article class="post">
                                             <?php if (has_post_thumbnail()) : ?>
                                                 <a href="<?php the_permalink(); ?>">
